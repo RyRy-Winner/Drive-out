@@ -1,0 +1,63 @@
+# =========================================
+# CLion / JetBrains Specific
+# =========================================
+# User-specific settings, run configurations, and VCS history
+.idea/
+
+# =========================================
+# CMake Build Artifacts (Recommended)
+# =========================================
+# Ignore all default cmake build folders (debug, release, etc.)
+cmake-build-*/
+# Also ignore the older convention "build" if you use it
+/build/
+
+# Ignore CMake cache and files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+<<<<<<< Updated upstream
+CTestTestfile.cmake
+_deps/
+CMakeUserPresets.json
+=======
+cmake-build-debug
+>>>>>>> Stashed changes
+
+# Ignore User-specific CMake settings
+CMakeLists.txt.user*
+
+# =========================================
+# Windows System Files
+# =========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =========================================
+# C++ Specific
+# =========================================
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.manifest
+*.o
+*.a
+*.so
+*.out
+*.dylib
+
+# =========================================
+# Other
+# =========================================
+*.log
+.idea/editor.xml
